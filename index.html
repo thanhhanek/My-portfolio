@@ -262,9 +262,9 @@
 
         // Hàm gọi API của Gemini
         async function callGeminiAPI(prompt) {
-            const apiKey = "AIzaSyAYqyUaOS5tnOuoR88GHCORxfL6FiVBGUo"; // API key được cung cấp bởi nền tảng
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${apiKey}`;
-            
+            const apiKey = "AIzaSyAAImJ3eDfIFetFwMI_UmzfbVHuhJKXwj8"; // API key được cung cấp bởi nền tảng
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
             const payload = {
                 contents: [{
                     parts: [{ text: prompt }]
